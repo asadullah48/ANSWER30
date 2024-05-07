@@ -4,6 +4,6 @@ userNames.forEach(function (userName) {
         console.log("Assalaam O alikum, admin");
     }
     else {
-        console.log('Assalaam O alikum ${userName}, Welcome back!');
+        console.log("Assalaam O alikum ".concat(userName, ", Welcome back!"));
     }
 });
